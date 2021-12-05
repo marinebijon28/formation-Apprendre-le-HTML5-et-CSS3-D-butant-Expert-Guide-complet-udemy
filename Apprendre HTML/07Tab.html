@@ -1,0 +1,55 @@
+<!-- basic formation HTML page -->
+<!DOCTYPE html>
+<!-- attribute language -->
+<html lang="fr">
+    <!-- basic head -->
+    <head>
+        <!-- tile in browser -->
+        <title>Mon super site web</title>
+        <meta charset="utf-8" />
+        <!-- description of the site on the web -->
+        <meta name="description" content="Description fu site web" />
+        <!-- key words of the site on the web -->
+        <meta name="keywords" content="html, programmation, css" />
+    </head>
+    <!-- css's the page -->
+    <style>
+        table, td {
+            border : 1px solid black;
+        }
+
+        thead, tfoot {
+            background-color: black;
+            color: white;
+        }
+    </style>
+
+    <!-- body content's the page -->
+    <body>
+        <!-- table -->
+        <table>
+            <!-- table head -->
+            <thead>
+                <!-- line -->
+                <tr>
+                    <!-- element in line -->
+                    <th>Mois</th>
+                    <th>Montant</th>
+                     <!-- merge three rows -->
+                    <th rowspan="3">Fin</th>
+                </tr>
+            </thead>
+            <tr>
+                <td>Janvier</td>
+                <td>1500</td>
+            </tr>
+            <!-- table foot -->
+            <tfoot>
+                <tr>
+                    <!-- merge two cols -->
+                    <td colspan="2">Fin de tableau</td>
+                </tr>
+            </tfoot>
+        </table>
+    </body>
+</html>

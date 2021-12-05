@@ -1,0 +1,108 @@
+<!-- basic formation HTML page -->
+<!DOCTYPE html>
+<!-- attribute language -->
+<html lang="fr">
+    <!-- basic head -->
+    <head>
+        <!-- tile in browser -->
+        <title>Mon super site web</title>
+        <meta charset="utf-8" />
+        <!-- description of the site on the web -->
+        <meta name="description" content="Description fu site web" />
+        <!-- key words of the site on the web -->
+        <meta name="keywords" content="html, programmation, css" />
+    </head>
+
+    <!-- body content's the page -->
+    <body>
+        <form action="contact.html">
+            <!-- border's formulaire  -->
+            <fieldset>
+                <!-- legend's fieldset -->
+                <legend>Nous contacter</legend>
+                <div>
+                    <!-- label is for focus the case if click on the label -->
+                    <label for="nom">Nom</label>
+                    <!-- this is a input text is a small case -->
+                    <input type="text" id="nom" size="20" minlength="5" maxlength="20" />
+                </div>
+
+                <div>
+                    <!-- label is for focus the case if click on the label -->
+                    <label for="prenom">Prenom</label>
+                    <!-- this is a input text is a small case -->
+                    <input type="text" id="prenom" size="30" placeholder="Jean-Luc" />
+                </div>
+
+                <div>
+                    <!-- label is for focus the case if click on the label -->
+                    <label for="mail">Email</label>
+                    <!-- this is a input mail is a small case qui doit contenir un @ -->
+                    <input type="email" id="mail" />
+                </div>
+
+                <div>
+                    <!-- label is for focus the case if click on the label -->
+                    <label for="fichier">Envoyer un fichier</label>
+                    <!-- input which list the file select if file selected -->
+                    <input type="file" name="fichier_envoyer" id="fichier" />
+                </div>
+
+                <div>
+                    <!-- label is for focus the case if click on the label -->
+                    <label for="h">homme</label>
+                     <!-- radio type allows you to select only one choice if the name is same -->
+                     <!-- checked is the choice for default -->
+                    <input type="radio" name="radio1" id="h" checked />
+                    <!-- label is for focus the case if click on the label -->
+                    <label for="f">Femme</label>
+                     <!-- radio type allows you to select only one choice if the name is same -->
+                    <input type="radio" name="radio1" id="f" />
+                </div>
+
+                <div>
+                     <!-- label is for focus the case if click on the label -->
+                    <label for="cgu">Accepter les CGU</label>
+                     <!-- radio type allows you to select divers choice if the name is same -->
+                    <input type="checkbox" name="check" id="cgu" />
+                </div>
+
+                <div>
+                    <!-- is the type for hidden password with dot -->
+                    <input type="password" />
+                    <!-- is for selected one color -->
+                    <input type="color" />
+                    <!-- is for display numbers -->
+                    <input type="number" />
+                    <!-- display a calendar if click on the case -->
+                    <input type="date" />
+                </div>
+
+                <div>
+                    <!-- is the big case for text -->
+                    <!-- cols is for number of cols -->
+                    <!-- rows is for number of rows -->
+                    <!-- is a example of text -->
+                    <textarea name="message" id="msg" cols="30" rows="10" placeholder="Rediriger votre message"></textarea>
+                </div>
+
+                <div>
+                    <!-- provides a list of options for the user to choose from -->
+                    <select>
+                        <!-- is the choice for default -->
+                        <option selected >Jean</option>
+                        <option>Luc</option>
+                        <option>Marc</option>
+                    </select>
+                </div>
+
+                <div>
+                    <!-- is the type for submit the form -->
+                    <input type="submit" value="envoyer" />
+                    <!-- is for reset the form -->
+                    <input type="reset" />
+                </div>
+            </fieldset>
+        </form>
+    </body>
+</html>

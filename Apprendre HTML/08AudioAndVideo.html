@@ -1,0 +1,38 @@
+<!-- basic formation HTML page -->
+<!DOCTYPE html>
+<!-- attribute language -->
+<html lang="fr">
+    <!-- basic head -->
+    <head>
+        <!-- tile in browser -->
+        <title>Mon super site web</title>
+        <meta charset="utf-8" />
+        <!-- description of the site on the web -->
+        <meta name="description" content="Description fu site web" />
+        <!-- key words of the site on the web -->
+        <meta name="keywords" content="html, programmation, css" />
+    </head>
+
+    <!-- body content's the page -->
+    <body>
+        <!-- controls display the options for play video -->
+        <!-- autoplay is launches the video at the end of the page loading -->
+        <!-- poster is picture on the video if not lauching -->
+        <!-- muted is for mute the video -->
+        <!-- loop is play loop the video -->
+        <video controls autoplay width="500" poster="../assets/img/demonSlayer.jpeg" muted loop>
+            <!-- src is the path relative of video -->
+            <!-- type is the type of the video -->
+            <source src="../assets/video/trailer.mp4" type="video/mp4" />
+        </video>
+
+        <!-- controls display the options for play video -->
+        <!-- muted is for mute the video -->
+        <!-- loop is play loop the video -->
+        <audio controls muted loop>
+            <!-- src is the path relative of audio -->
+            <!-- type is the type of the video is convention -->
+            <source src="../assets/audio/demonSlayer.mp3" type="audio/mpeg" />
+        </audio>
+    </body>
+</html>
