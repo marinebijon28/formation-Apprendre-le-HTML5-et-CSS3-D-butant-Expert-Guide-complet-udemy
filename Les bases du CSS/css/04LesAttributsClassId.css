@@ -1,0 +1,23 @@
+/* selector id */
+#rouge {
+    /* color police */
+    color: red;  
+}
+
+/* selector tags */
+h2 {
+    /* color police */
+    color : yellowgreen;
+}
+
+/* selector class */
+.titre-bleu {
+    /* color police */
+    color : blue;
+}
+
+/* selector class */
+.big-texte {
+    /* taille de police */
+    font-size : 20px;
+}

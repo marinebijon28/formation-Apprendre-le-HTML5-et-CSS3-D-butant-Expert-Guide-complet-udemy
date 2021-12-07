@@ -1,0 +1,59 @@
+/* target paragraph tag */
+p {
+    color :red;
+}
+
+/* target h1 tag */
+h1 {
+    color :blue;
+}
+
+/* puce tags */
+li {
+    color : green;
+}
+
+/* target h2 tags */
+h2 {
+    color : yellowgreen;
+}
+
+/* universal selector */
+/* all page */
+* {
+    color :red;
+}
+
+/* target multiple elements  */
+p, h2, li {
+    color : blue;
+}
+
+/* target p in a div */
+div p {
+    color :red;
+}
+
+/* target p in a a */
+p a {
+    color : green;
+}
+
+/* a is child of body */
+body > a {
+    color : red;
+}
+
+/* for one div next to h1 */
+h1 + div {
+    color : blue;
+}
+
+/* for one a next to p */
+p + a {
+    color : green;
+}
+/* all paragraphs next to h2 */
+h2 ~ p {
+    color: red;
+}

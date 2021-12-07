@@ -1,0 +1,10 @@
+/* css file that can be called on any page */
+
+/* p is the selector */
+p {
+    /* color is the property */
+    /* the paragraph is writed red */
+    color : red;
+    /* background is other property */
+    background: black;
+}
