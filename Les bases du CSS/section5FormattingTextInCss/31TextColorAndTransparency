@@ -1,0 +1,41 @@
+<!-- basic formation HTML page -->
+<!DOCTYPE html>
+<!-- attribute language -->
+<html lang="fr"> 
+    <!-- basic head -->
+    <head>
+        <!-- tile in browser -->
+        <title>Mon super site web</title>
+        <!-- page encoding -->
+        <meta charset="utf-8" />
+        <!-- description of the site on the web -->
+        <meta name="description" content="Description fu site web" />
+        <!-- key words of the site on the web -->
+        <meta name="keywords" content="html, programmation, css" />
+        <!-- css -->
+        <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+        <style>
+            h1 {
+                margin-top: -130px;
+                color: red;
+                color: rgb(83, 115, 212);
+                color: #00ffff;
+                color: hsl(160, 100%, 75%);
+                color: hsla(160, 100%, 75%, 0.472);
+                color: rgba(245, 245, 220, 0.541);
+            }
+        </style>
+    </head>
+
+    <!-- body content's the page -->
+    <body>
+        <h1>Titre de niveau 2</h1>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nesciunt atque deserunt consectetur recusandae consequatur a architecto natus? Et labore doloremque fuga omnis esse aliquid amet, in quae dicta ex?</p>
+
+        <p class="font">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nesciunt atque deserunt consectetur recusandae consequatur a architecto natus? Et labore doloremque fuga omnis esse aliquid amet, in quae dicta ex?</p>
+
+        <p class="font1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nesciunt atque deserunt consectetur recusandae consequatur a architecto natus? Et labore doloremque fuga omnis esse aliquid amet, in quae dicta ex?</p>
+
+    </body>
+</html>
