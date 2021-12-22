@@ -1,15 +1,21 @@
 ## formation udemy : Apprendre le HTML5 et CSS3 Debutant Expert Guide Complet 
 
 ## Section 1 : Introduction
-HTML et CSS sont de véritables standards. Ils n'ont pas réellement de concurrent comme c'est le cas pour des langages comme PHP qui peut être concurrencé par Ruby And Rails et Django.
-Ensuite les langages comme HTML et CSS sont véritablement le socle de tout projet de développement web. Que vous vouliez créer site e-commerce, un blog ou une application mobile ou que ce soit d'autres vous serez obliger de passer par les langages HTML et CSS.
 
-# HTML et CSS, c'est quoi ?
+# introduction
+HTML et CSS sont de véritables standards. Ils n'ont pas réellement de concurrent comme c'est le cas pour des langages comme PHP qui peut être concurrencé par Ruby And Rails et Django.
+Ensuite les langages comme HTML et CSS sont véritablement le socle de tout projet de développement web. Que vous vouliez créer site e-commerce, un blog, une application mobile ou que ce soit d'autres vous serez obliger de passer par les langages HTML et CSS.
+
+# HTML, c'est quoi ?
 HTML c'est l'acronyme de HyperText Markup Language. Le HTML a fait son apparition dès le 1991, lors du lancement du web. Son rôle est de gérer et d'organiser le contenu donc c'est en HTML que vous écrirez ce qui doit être affiché sur la page : lien, titre, menu, etc.
 Le HTML est un langage de balisage parce que vous allez voir qu'on utilise des balises pour structurer et afficher notre texte.
 
-CSS c'est l'acronyme de Cascading Style Sheets, aussi appelées Feuilles de Style en français. Le rôle du CSS est de gérer : l'apparence de la page web, l'agencement, sa position, etc. Ce langage est venue compléter le HTML en 1996. Les feuilles de styles ont pour but de dissocier le contenu de la page, ça va être le côté HTML. Son apparence visuel ça va être le CSS.
+# CSS, c'est quoi ?
+CSS c'est l'acronyme de Cascading Style Sheets, aussi appelées Feuilles de Style en français. Le rôle du CSS est de gérer : l'apparence de la page web, l'agencement, sa position, etc. Ce langage est venue compléter le HTML en 1996. Les feuilles de styles ont pour but de dissocier : 
+- le contenu de la page, ça va être le côté HTML.
+- Son apparence visuel ça va être le CSS.
 
+# HTML & CSS sont la base
 HTML et CSS sont à la base du fonctionnement de tous les sites web. Lorsque vous consultez un site avec votre navigateur. Il faut savoir qu'en coulisse des rouages s'activent pour permettre au site web de s'afficher. L'ordinateur se base sur ce qu'on lui a expliqué en HTML et CSS pour savoir ce qu'il doit afficher. Pour créer un site web on doit donner des instructions à l'ordinateur. Il ne suffit pas de taper son texte qui doit figurer dans le site comme un traitement de texte. Il faut aussi indiquer où placer sont texte insérer des images, faire des liens entre les pages, etc.
 
 # Historique du HTML
@@ -30,6 +36,5 @@ rajoute des techniques de positionnement, marges, couleurs, etc.
 # Pourquoi apprendre HTML & CSS ?
 - Wordpress, et PrestaShop permettent de créer des sites web sauf que c'est assez limités. Maîtriser le HTML et CSS permettent de modifier le code créée par ces CMS (Content Management System).
 - Les éditeurs WYSIWYG qui veut dire What You See Is What You Get (MozillaComposer, Dreamweaver) ce sont des programmes qui se veulent trés facile d'emploi. C'est une sorte d'interface qui permet de construire un site web en glissant les éléments de la page en le positionnant. Ils ont un énorme défaut cest-qu'ils produisent des codes de mauvaises qualitées.
-
-Une autre raison d'apprendre ces langages, c'est que si vous voulez devenir développeur web. Vous utiliserez d'autres langages comme le JavaScript, Python, PHP, etc.
+- Une autre raison d'apprendre ces langages, c'est que si vous voulez devenir développeur web. Vous utiliserez d'autres langages comme le JavaScript, Python, PHP, etc.
 HTML et CSS sont la base vous pouvez les retrouver dans n'importe quel langage.
