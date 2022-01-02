@@ -30,27 +30,27 @@ Ici nos balises <p>. On peut voir que la balise ouvrante est un peu différente 
 
 <p class="important"></p>
 <p class='important'></p>
-Pourquoi je n'ai pas fermé la balise le chevron de balise ouvrante. Si on doit ajouter un attribut c'est là où on doit le mettre. Si j'utilise l'attribut class. On verra plus tard ce que c'est. Je lui affecte avec le signe égale avec des simple quote ou des double côte ça marcherai aussi.
+Pourquoi je n'ai pas fermé la balise le chevron de balise ouvrante. Si on doit ajouter un attribut c'est là où on doit le mettre. Si j'utilise l'attribut class. On verra plus tard ce que c'est. Je lui affecte avec le signe égale avec des simple quote ou des double quote ça marcherai aussi.
 
-Important ça veut dire que ce paragraphe dépends de la classe important. Vous ne savez pas encore ce que c'est. La classe va permettre tout simplement de revenir sur ce paragraphe est de modifier grâce au CSS sont apparence. En tout cas, il existe en beaucoup et on peut voir que c'est assez simple à utiliser. On va les utiliser en déclarant les attributs dans la balise ouvrante.
+Important ça veut dire que ce paragraphe dépends de la classe important. Vous ne savez pas encore ce que c'est. La class va permettre tout simplement de revenir sur ce paragraphe est de modifier grâce au CSS sont apparence. En tout cas, il existe en beaucoup et on peut voir que c'est assez simple à utiliser. On va les utiliser en déclarant les attributs dans la balise ouvrante.
 
 <p class='important'>Ceci est mon paragraphe</p>
-Ensuite qu'en j'ai fait ça, je mets mon texte. Là cela va fonctionner, mais au niveau de la classe vous ne le verrez pas à l'affichage. Le HTML sait qu'il y a un attribut classe qui s'appelle important.
+Ensuite qu'en j'ai fait ça, je mets mon texte. Là cela va fonctionner, mais au niveau de la classe vous ne le verrez pas à l'affichage. Le HTML sait qu'il y a un attribut class qui s'appelle important.
 
 <p class="important"></p>
-Cette partie est la balise ouvrante. J'ouvre mon p et au lieu de le refermer directement avec le chevron fermant je vais y mettre mes attributs. C'est comme ça que cela va fonctionner et ici on peut observer une balise fermante.
+Cette partie est la balise ouvrante. J'ouvre mon p et au lieu de le refermer directement avec le chevron fermant, je vais y mettre mes attributs. C'est comme ça que cela va fonctionner et ici on peut observer une balise fermante.
 
 Le HTML va être simplement le fait de connaître les balises et les attributs, etc. À force vous allez voir que vous allez les retenir facilement. De plus, je vais vous expliquer : les balises, les attributs. 
 
-# Mozilla Developer Network
+# Mozilla Développer Réseaux
 On va voir les plus importantes, mais il est possible que vous tombiez sur des balises que vous ne connaissez pas. Je vais vous donner l'adresse d'un site qui s'appelle Mozilla Developer Network : developer.mozilla.org/fr/. C'est très intéressant, ce site en fait va vous permettre d'utiliser la documentation HTML qui est en plus traduite. 
 
 Une fois que vous êtes sur le site, vous allez au niveau de technologies et vous choisissez HTML.
 Alors, là on peut voir sur le menu gauche qui va être intéressante, vous avez la documentation et vous avez toutes les références. C'est ça qui va nous intéresser, si je cherche ici, je demande d'afficher les éléments HTML. On peut voir une liste qui est apparue assez conséquente, qui possède tous les éléments HTML. Si je descends, comme c'est classé par ordre alphabétique. 
 
-On va pouvoir observer que j'ai mon <p>. Si je clique dessus ça va m'indiquer : l'élément HTML <p> représente un paragraphe de texte. Les paragraphes sont généralement représentés comme des blocs et séparés par un espace vertical. On a même un exemple en dessous, mais qui contient du texte, on ne va pas s'en occuper pour le moment. Si on descend on a encore des exemples, on nous explique des choses.
+On va pouvoir observer que j'ai mon <p>. Si je clique dessus. Ça va m'indiquer : l'élément HTML <p> représente un paragraphe de texte. Les paragraphes sont généralement représentés comme des blocs et séparés par un espace vertical. On a même un exemple en dessous, mais qui contient du texte, on ne va pas s'en occuper pour le moment. Si on descend on a encore des exemples, on nous explique des choses.
 
-On a surtout les attributs de cette balise. En fait, cet élément comme les autres élément HTML a inclus les attributs universels. Quand il n'y a pas vraiment d'attribut spécifique à cette balise, vous allez pouvoir utiliser les attributs universels. Or si vous utilisez une balise qui a des attributs bien spécifiques. Elles vont apparaitre là et elles vont être expliquées.
+On a surtout les attributs de cette balise. En fait, cet élément comme les autres élément HTML a inclus les attributs universels. Quand il n'y a pas vraiment d'attribut spécifique à cette balise, vous allez pouvoir utiliser les attributs universels. si vous utilisez une balise qui a des attributs bien spécifiques. Elles vont apparaitre là et elles vont être expliquées.
 
 Si on revient au niveau de technologies HTML. On va pouvoir aussi observer qu'en dessous d'élément HTML. On a les attributs universels, on peut en voir pas mal, ce qui va être assez intéressant.
 
@@ -60,9 +60,9 @@ Autre chose que je voulais signaler sur le site : c'est que vous avez des élém
 
 De la même manière que vous avez un pouce bleu vers le bas qui vous dit que ce n'est pas standardisé. Il vous dit : cet élément n'est pas standard et ne doit pas être utilisé ! Pour intégrer du son à une page web, on utilisera l'élément <audio>. En gros elle ne fonctionnera pas forcément si vous êtes sur internet pour une utilisation pour tout le monde. 
 
-Vous avez tout ce qu'il faut ici. Si vous revenez au niveau de HTML et des attributs. Vous avez quelques petits icones ici une balise ou attribut expérimental qui ne vaut mieux pas l'utiliser en production. Bien que la prise en charge de cet attribut ne soit pas homogène pour les navigateurs, celui-ci est pris en compte par les outils de traduction automatique (Google Translate par exemple) et les outils de traduction utilisées par les traducteurs. De plus, cet attribut doit être utilisé par les auteurs web afin d'indiquer correctement le contenu qui ne devrait pas être traduit. Vou aurez bien compris qu'il faut l'utiliser.
+Vous avez tout ce qu'il faut ici. Si vous revenez au niveau de HTML et des attributs. Vous avez quelques petits icones ici une balise ou attribut expérimental qui ne vaut mieux pas l'utiliser en production. Bien que la prise en charge de cet attribut ne soit pas homogène pour les navigateurs, celui-ci est pris en compte par les outils de traduction automatique (Google traduction par exemple) et les outils de traduction utilisées par les traducteurs. De plus, cet attribut doit être utilisé par les auteurs web afin d'indiquer correctement le contenu qui ne devrait pas être traduit. Vous aurez bien compris qu'il faut l'utiliser.
 
-Alors, ce site Mozilla Développer Network va vous être dans grand secours. Si ce n'est pas traduit vous pouvez le changer cliquer changer la langue, vous allez être en bas de la page et vous allez pouvoir la sélectionner.
+Alors, ce site Mozilla Developer Network va vous être dans grand secours. Si ce n'est pas traduit vous pouvez le changer cliquer changer la langue, vous allez être en bas de la page et vous allez pouvoir la sélectionner.
 
 # Les éléments imbriqués
 Pour les éléments ça ne va pas être bien compliqué.
