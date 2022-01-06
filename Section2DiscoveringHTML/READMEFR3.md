@@ -75,13 +75,13 @@ On voit que j'ai mis des balises pour le paragraphe ouvrante et fermante.
 <p>apprendre le<strong> html </strong>c'est facile</p>
 Vous pouvez apercevoir à l'intérieur que j'ai imbriqué deux balises strongs. Elles entourent le texte html avec la balise ouvrante à gauche avec : le chevron ouvrante, strong et le chevron fermant. La balise fermante avec : chevron ouvrant, slash, strong, chevron fermant. 
 
-Pour savoir ce qui est la balise strong aller voir la documentation ça va me permettre de mettre le texte en gras. Le HTML va être-là pour le contenu. Le rôle du CSS est justement la mise en forme donc par exemple mettre en gras. Là il ne faut pas voir les balises strong comme pour dire je vais placer mon texte en gras. Les balises strong exprime de la sémantique. Tout simplement le mot html a une consonance forte de ma phrase donc grâce ces balises en CSS. Je vais pouvoir appliquer quel style que je veux : le laisser en gras, en italique, changer la couleur, etc. C'est le point de vue de la partie sémantique. Ces valises strong, il ne faut pas les utiliser juste pour mettre en gras, même si le font. C'est surtout pour dire que ce texte est important.
+Pour savoir ce qui est la balise strong aller voir la documentation ça va me permettre de mettre le texte en gras. Le HTML va être-là pour le contenu. Le rôle du CSS est justement la mise en forme donc par exemple mettre en gras. Là il ne faut pas voir les balises strong comme pour dire je vais placer mon texte en gras. Les balises strong exprime de la sémantique. Tout simplement le mot html a une consonance forte de ma phrase donc grâce ces balises en CSS. Je vais pouvoir appliquer quel style que je veux : le laisser en gras, en italique, changer la couleur, etc. C'est le point de vue de la partie sémantique. Ces balises strong, il ne faut pas les utiliser juste pour mettre en gras, même si le font. C'est surtout pour dire que ce texte est important.
 
 <p>apprendre le<strong> html </strong>c'est facile</p>
 Vous pouvez voir que j'ai bien les balises strong imbriqués dans mon paragraphe.
 
 <p>apprendre le<strong> html </p>c'est facile</strong>
-Alors, attention si vous faites ce genre de ligne de code vous pouvez. On peut voir  que j'ai bien la balise ouvrante cet élément <p> et <strong> qui est inversé donc elle se chevauche. On peut voir que ça ne fonctionne pas.
+Alors, attention si vous faites ce genre de ligne de code vous pouvez. On peut voir que j'ai bien la balise ouvrante cet élément <p> et <strong> qui est inversé donc elle se chevauche. On peut voir que ça ne fonctionne pas.
 
 <p>apprendre le<strong> html </strong>c'est facile</p>
 En fait, les balises fonctionnent par paires les deux <p><strong></strong></p>.
@@ -117,19 +117,19 @@ On va voir durant ce cours voir l'ensemble des balises et des attributs intéres
 On va s'intéresser à la structure d'un fichier HTML. C'est très important. Il y a plusieurs choses à voir :
 
 <!DOCTYPE html>
-- La première chose, c'est qu'on va rencontrer en haut du fichier une balise un peu spéciale. Chevron ouvrant, point d'exclamation, DOCTYPE, plus loin html et chevron fermant. Le doctype c'est très important, celui-ci correspond au HTML5 et vous allez devoir le renseigner. Pourquoi ce Doctype on doit le déclarer parce qu'auparavant vous aviez des versions. Maintenant vous n'avez plus que du HTML5 mais auparavant on utilisait plusieurs versions de HTML en même temps. Le doctype était différent pour dire à votre navigateur ce qui suit c'est du HTML3, 4, 5. Le problème de ce doctype était assez long à renseigner. Avec HTML5 vous devez juste retenir que vous inscrivez ce doctype à chaque fois il n'y a pas le comprendre. Ça correspond au doctype pour dire navigateur c'est du HTML5.
+- La première chose, c'est qu'on va rencontrer en haut du fichier une balise un peu spéciale. Chevron ouvrant, point d'exclamation, DOCTYPE, plus loin html et chevron fermant. Le doctype c'est très important, celui-ci correspond au HTML5 et vous allez devoir le renseigner. Pourquoi ce Doctype on doit le déclarer parce qu'auparavant vous aviez des versions. Maintenant vous n'avez plus que du HTML5 mais auparavant on utilisait plusieurs versions de HTML en même temps. Le doctype était différent pour dire à votre navigateur ce qui suit c'est du HTML 3, 4, 5. Le problème de ce doctype était assez long à renseigner. Avec HTML5 vous devez juste retenir que vous inscrivez ce doctype à chaque fois il n'y a pas le comprendre. Ça correspond au doctype pour dire navigateur c'est du HTML5.
 
 - Ensuite, vous pouvez observer deux balises une ouvrante et un fermante <html></html>. C'est balise c'est la qu'on va mettre tout le contenu de notre site web.
 
-- Ensuite, vous pouvez voir deux balises <head></head> qui se traduit en français tête ca va être le header Tout ce qui va correspondre aux rensignements du site. Par exemple : le titre de la page, on va y mettre des balises meta. On pourrait y mettre plein de choses par exemple : des tags, des metas pour que le site soit mieux indexé sur les moteurs de recherche. Ce ne sont pas des choses qui vont se voir, mais qui vont être important.
+- Ensuite, vous pouvez voir deux balises <head></head> qui se traduit en français tête ca va être le header. Tout ce qui va correspondre aux renseignements du site. Par exemple : le titre de la page, on va y mettre des balises meta. On pourrait y mettre plein de choses par exemple : des balises, des metas pour que le site soit mieux indexé sur les moteurs de recherche. Ce ne sont pas des choses qui vont se voir, mais qui vont être important.
 
 - Ensuite, on a une deuxiéme balises juste en-dessous qui est à la même hauteur qu'on appelle body qu'on traduit par le corps. Ça va être le corps de votre message. Ici on peut voir qu'il y a simplement un paragraphe.
 
 Ce qu'il faut retenir c'est que la structure d'une page HTML :
 - Commence par son doctype,
-- ensuite on y insère deux balises html ouvrantes et fermantes. À l'intérieur de cette balise on va y mettre d'autres balises :
+- Ensuite on y insère deux balises html ouvrantes et fermantes. À l'intérieur de cette balise on va y mettre d'autres balises :
     - le head donc le header
-    - le body et en dessous le body
+    - le body et en dessous du head
 
 Ça c'est une structure très simple, mais elle est obligatoire à connaître rassurez-vous il y a de petites facilitées au niveau des éditeurs de codes qui vont nous permettre de ne pas forcément devoir à la retenir.
 
@@ -143,7 +143,7 @@ Ce qu'il faut retenir c'est que la structure d'une page HTML :
         <p>Bienvenue sur mon site web</p>
     </body>
 </html>
-Ensuite, je voulais vous perler de l'importance de l'indentation. J'ai écrit ma balise <html>, l'éditeur dessine un trait afin de montrer que les balises sont au même niveau. Même si elle se trouve plus bas et que des balises soient imbriqués
+Ensuite, je voulais vous parler de l'importance de l'indentation. J'ai écrit ma balise <html>, l'éditeur dessine un trait afin de montrer que les balises sont au même niveau. Même si elle se trouve plus bas et que des balises soient imbriqués.
 Entre chaque balise paire si on ouvre une autre balise <head> à l'intérieur, elle sera décalée au niveau de l'indentation soit une tabulation. 
 
 Elle va vous permettre dans certains langages comme le Python vous êtes obligés d'indenter correctement parce que sinon il va y avoir des erreurs. 
